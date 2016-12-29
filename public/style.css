@@ -1,0 +1,38 @@
+body {
+  /*background-image: url(http://www.cand-led.com/gallery/app/web/upload/large/1_586b6ede96f620f35e3c12e8e2d6c919.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;*/
+}
+
+.main {
+  width: 100%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.left {
+  float: left;
+  margin-right: 5%;
+}
+
+.right {
+  float: left;
+  margin-left: 5%;
+}
+
+.leftleft {
+  float: left;
+}
+
+.leftright {
+  float: left;
+}
+
+.rightleft {
+  float: left;
+}
+
+.rightright {
+  float: left;
+}

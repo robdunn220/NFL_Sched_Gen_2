@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home-NFL_App</title>
+    <script src="angular.js"></script>
+    <script src="angular-ui-router.js"></script>
+    <script src="angular-cookies.js"></script>
+    <script src="entireScheduleGen.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body ng-app="nfl_app">
+    <h1>NFL App</h1>
+    <input type="text" ng-model="team" value="">
+    <a ui-sref="schedule_generator({team: team})"><button>Generate a new schedule!</button></a>
+    <ui-view></ui-view>
+  </body>
+</html>

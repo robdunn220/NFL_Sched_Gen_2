@@ -52,8 +52,7 @@ app.controller('AllTeamsController', function($scope, NFL_Api) {
       if ($scope.allTeams[i].conference === 'AFC') {
         $scope.AFClist.push($scope.allTeams[i]);
         $scope.afc = $scope.allTeams[i].conference;
-      }
-      else if ($scope.allTeams[i].conference === 'NFC') {
+      } else if ($scope.allTeams[i].conference === 'NFC') {
         $scope.NFClist.push($scope.allTeams[i]);
         $scope.nfc = $scope.allTeams[i].conference;
       }

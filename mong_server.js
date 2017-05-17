@@ -28,7 +28,7 @@ app.get('/api/all_teams', function(req, res) {
 });
 
 app.get('/api/specific_teams', function(req, res) {
-  console.log(req.query.oppName);
+  console.log(teams);
   Team.find({name: {
     $in: [req.query.name]}
   })
